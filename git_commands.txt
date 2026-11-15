@@ -1,0 +1,59 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init
+   Initializes a new local Git repository.
+
+2. git branch -M main
+   Renames the current branch to main.
+
+3. git config --global user.name
+   Displays the configured Git username.
+
+4. git config --global user.email
+   Displays the configured Git email.
+
+5. git add
+   Stages files for the next commit.
+
+6. git commit -m "message"
+   Records staged changes in repository history.
+
+7. git branch feature
+   Creates a new branch named feature.
+
+8. git switch feature
+   Switches to the feature branch.
+
+9. git branch
+   Displays available local branches.
+
+10. git switch main
+    Switches back to the main branch.
+
+11. git merge feature
+    Merges feature branch changes into main.
+
+12. git log --oneline --graph --all
+    Displays commit history and branch relationships.
+
+13. git status
+    Displays the current repository status.
+
+14. git reset --soft HEAD~1
+    Undoes the latest commit while keeping changes staged.
+
+15. git restore --staged index.html
+    Removes index.html from staging.
+
+16. git restore index.html
+    Discards unstaged changes in index.html.
+
+17. git remote add origin URL
+    Connects the local repository to GitHub.
+
+18. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream.
+
+19. git remote -v
+    Displays configured remote repository URLs.
